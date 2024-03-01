@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+body{
+  padding-top: 30px;
+}
+.nav{
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #f2f2f2;
+  margin: auto;
+}
+.nav h1{
+  color: #f1356d;
+}
+.links{
+margin-left: auto;
+transition-duration:all  .4s;
+}
+.links :hover{
+  border-bottom: 1px solid #f1356d;
+
+}
+.nav a{
+  margin-left: 16px;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+.content{
+  margin: auto;
+  max-width: 600px;
+  text-decoration: none;
+  padding-right: 40px;
+  margin-top: 40px;
+}
+.blog-preview{
+  background-color: rgb(254, 252, 252);
+  margin-top: 10px;
+  padding: 10px;
+}
+.blog-preview:hover{
+ box-shadow: 1px 3px 5px rgb(0, 0, 0,0.1);
+
+}
+#title-blog{
+ text-decoration: none;
+  color: #f1356d;
+}
+#aut{
+  text-decoration: none;
+   /* text-decoration: none; */
+   color: black;
+}
+#line{
+  color: black;
+}
+#fp{
+  text-decoration: none;
+}
+#blogtitle{
+  color: #f1356d;
+}
+#author{
+  margin-top: 3px;
+}
+.create {
+max-width: 400px;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.create label {
+text-align: left;
+display: block;
+
+}
+
+.create h2 {
+
+font-size: 20px;
+color: #f1356d;
+margin-bottom: 30px;
+
+}
+
+.create input, .create textarea, .create select {
+
+width: 100%;
+padding: 6px 10px;
+margin: 10px 0;
+border: 1px solid #ddd; 
+box-sizing: border-box;
+display: block;
+
+}
+
+.create button {
+background: #f1356d;
+color: #fff;
+border: 0;
+padding: 8px;
+border-radius: 8px;
+cursor: pointer;
+}
+#blog-detail{
+  margin: auto;
+  display: flex;
+  /* align-items: center; */
+  margin-left: 32vw;
+  flex-direction: column;
+  justify-content: center;
+}
+#detail-title{
+  color: #f1356d;
+  font-size: 30px;
+  margin: 40px 0 0 0;
+}
+#detail-author{
+  margin-top: 10px;
+  font-size: 20px;
+}
+#detail-body{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#delbtn{
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #f1356d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: all 1s;
+}
+#delbtn:hover{
+color: #f1356d;
+background-color: rgb(235, 234, 234);
+}
